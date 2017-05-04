@@ -1,2 +1,134 @@
-.titulo {
-  color: green; }
+header {
+  width: 90%;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: "Abril Fatface", cursive; }
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 0 auto;
+  font-family: "Quicksand", sans-serif; }
+
+.operation {
+  width: 90%;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.btn-primary {
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none; }
+  .btn-primary:hover {
+    background-color: lightblue;
+    border: none; }
+
+.choosingMatrices {
+  padding: 20px 30px 35px 30px; }
+
+.btnMatrices {
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 25px;
+  margin-right: 15px;
+  border: none;
+  outline: none; }
+  .btnMatrices:hover {
+    background-color: lightblue;
+    border: none; }
+
+.numMatrixSelected {
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 25px;
+  margin-right: 15px;
+  border: none;
+  background-color: lightblue;
+  color: white;
+  outline: none; }
+
+.errorOne {
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 20px 10px 30px 10px; }
+
+.enteringData {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.rowsNum, .columnNum {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 30px; }
+  .rowsNum h4, .columnNum h4 {
+    margin: 0 20px 0 0; }
+
+.unselectedBtn {
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  font-size: 25px; }
+  .unselectedBtn:hover {
+    background-color: lightblue;
+    border: none; }
+
+.selectedBtn {
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  font-size: 25px;
+  background-color: lightblue;
+  color: white; }
+
+.inputFields {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  list-style: none; }
+
+.colDesign {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px; }
+
+.displayRow {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direcion: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
